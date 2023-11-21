@@ -1,5 +1,3 @@
-import {useState} from 'react';
-
 const List = ({people, remove}) =>{
     return people.map(person =>{
         const {id, name, age, image} = person
