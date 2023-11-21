@@ -5,7 +5,7 @@ const List = ({people, remove}) =>{
         const {id, name, age, image} = person
         return(
             <article key={id} className='list'>
-                <img src="{image}" alt="{name}" />
+                <img src={image} alt={name} />
                 <div style={{position: "relative"}}>
                     <h4>{name}</h4>
                     <p>{age}</p>
